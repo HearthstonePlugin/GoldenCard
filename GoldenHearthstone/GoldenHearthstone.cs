@@ -7,7 +7,7 @@ string HearthstonePath = PathUtil.FindInstallPathFromRegistry("Hearthstone");
 if (!string.IsNullOrEmpty(HearthstonePath) && Directory.Exists(HearthstonePath)
     && File.Exists(Path.Combine(HearthstonePath, "Hearthstone.exe")))
 {
-    Console.WriteLine("自动获取战网路径成功：");
+    Console.WriteLine("自动获取炉石路径成功：");
     Console.WriteLine(HearthstonePath);
 }
 else
