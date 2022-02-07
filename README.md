@@ -3,7 +3,9 @@
 
 ---
 
-编译所需依赖 Mono.Cecil(0.11.4)
+### 依赖
+
+编译所需依赖 Mono.Cecil(当前项目使用的版本为0.11.4)
 
 运行所需依赖 [.NET Runtime 6.0.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-6.0.0-windows-x86-installer)
 
